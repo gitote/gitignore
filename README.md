@@ -12,16 +12,9 @@ the following resources are a great place to start:
 - The [gitignore(5)][man] manual page.
 
 [man]: http://git-scm.com/docs/gitignore
-[help]: https://help.gitote.com/articles/ignoring-files
+[help]: https://help.github.com/articles/ignoring-files
 [chapter]: https://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [progit]: http://git-scm.com/book
-
-## Folder structure
-
-The files in the root directory are for `.gitignore` templates that are
-project specific, such as language or framework specific templates.
-Global (operating system or editor specific) templates should go into the
-[`Global/`](./Global) directory.
 
 ## Contributing guidelines
 
@@ -47,7 +40,7 @@ high quality, we request that contributions adhere to the following guidelines.
   template for that language or framework, rather than to the template for an
   editor, tool, or operating system.
 
-- **Please only modify *one template* per pull request**. This helps keep pull
+- **Please only modify *one template* per merge request**. This helps keep merge
   requests and feedback focused on a specific project or technology.
 
 In general, the more you can do to help us understand the change you’re making,
@@ -67,18 +60,14 @@ include your language, tool, or project, it’s not because it’s not awesome.
 
 Here’s how we suggest you go about proposing a change to this project:
 
-1. [Fork this project][fork] to your account.
-2. [Create a branch][branch] for the change you intend to make.
+1. **Fork this project** to your account.
+2. **Create a branch** for the change you intend to make.
 3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
+4. **Send a merge request** from your fork’s branch to our `master` branch.
 
 Using the web-based interface to make changes is fine too, and will help you
-by automatically forking the project and prompting to send a pull request too.
-
-[fork]: https://help.gitote.com/articles/fork-a-repo/
-[branch]: https://help.gitote.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: https://help.gitote.com/articles/using-pull-requests/
+by automatically forking the project and prompting to send a merge request too.
 
 ## License
 
-[CC0-1.0](./LICENSE).
+[MIT](./LICENSE).
